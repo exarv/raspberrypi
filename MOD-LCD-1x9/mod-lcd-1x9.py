@@ -103,14 +103,14 @@ LCDAlphabet = [0x0000,      # space
                0x0473,      # p
                0x0467,      # q
                0x0450,      # r
-               0x0078,      # s
-               0x001C,      # t
-               0x2010,      # u
-               0x2814,      # v
-               0x2A80,      # w
-               0x080C,      # x
-               0x2048,      # y
-               0x0000       
+               0x0C08,      # s
+               0x0078,      # t
+               0x001C,      # u
+               0x2010,      # v
+               0x2814,      # w
+               0x2A80,      # x
+               0x080C,      # y
+               0x2048,      # z
                ]
 
                
@@ -213,7 +213,7 @@ print "\nMOD-LCD-1x9"
 print "-----------------------------------"
 print "1. Init LCD"
 print "2. Write text"
-print "3. Dispaly clock"
+print "3. Display clock"
 print ""
 
 x = raw_input('Enter: ')
